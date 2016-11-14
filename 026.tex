@@ -1,71 +1,4 @@
-\documentclass[]{article}
-\usepackage{lmodern}
-\usepackage{amssymb,amsmath}
-\usepackage{ifxetex,ifluatex}
-\usepackage{fixltx2e} % provides \textsubscript
-\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
-  \usepackage[T1]{fontenc}
-  \usepackage[utf8]{inputenc}
-\else % if luatex or xelatex
-  \ifxetex
-    \usepackage{mathspec}
-  \else
-    \usepackage{fontspec}
-  \fi
-  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
-\fi
-% use upquote if available, for straight quotes in verbatim environments
-\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
-% use microtype if available
-\IfFileExists{microtype.sty}{%
-\usepackage{microtype}
-\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
-}{}
-\usepackage[unicode=true]{hyperref}
-\hypersetup{
-            pdfborder={0 0 0},
-            breaklinks=true}
-\urlstyle{same}  % don't use monospace font for urls
-\usepackage{graphicx,grffile}
-\makeatletter
-\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
-\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
-\makeatother
-% Scale images if necessary, so that they will not overflow the page
-% margins by default, and it is still possible to overwrite the defaults
-% using explicit options in \includegraphics[width, height, ...]{}
-\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
-\IfFileExists{parskip.sty}{%
-\usepackage{parskip}
-}{% else
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{6pt plus 2pt minus 1pt}
-}
-\setlength{\emergencystretch}{3em}  % prevent overfull lines
-\providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-\setcounter{secnumdepth}{0}
-% Redefines (sub)paragraphs to behave more like sections
-\ifx\paragraph\undefined\else
-\let\oldparagraph\paragraph
-\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
-\fi
-\ifx\subparagraph\undefined\else
-\let\oldsubparagraph\subparagraph
-\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
-\fi
-
-% set default figure placement to htbp
-\makeatletter
-\def\fps@figure{htbp}
-\makeatother
-
-
-\date{}
-
-\begin{document}
-
-Magnetoterapia e ettromagnetoterapia
+\section{Magnetoterapia e ettromagnetoterapia}
 
 L'applicazione di campi magnetici ed elettromagnetici è utilizzata nelle
 valutazioni in ambito diagnostico ma è anche utilizzata come forma di
@@ -82,7 +15,7 @@ stessa frequenza della corrente che le ha prodotte. Noi siamo bombardati
 da onde elettromagnetiche dovunque, perché siamo sempre a contatto con
 correnti elettriche di diversa frequenza.
 
-Interazione tra campo magnetico e sistemi biologici
+\section{Interazione tra campo magnetico e sistemi biologici}
 
 \emph{In realtà non è ancora ben conosciuta la modalità tramite cui i
 campi magnetici interagiscono con}
@@ -93,12 +26,14 @@ ioni e delle molecole cariche elettricamente.}
 
 \emph{A \textbf{livello cellulare} le maggiori attività influenzate
 sono:}
+\begin{itemize}
 
-\emph{• pompa K/Na}
+\item \emph{pompa K/Na}
 
-\emph{• flusso di ioni Ca}
+\item \emph{flusso di ioni Ca}
 
-\emph{• inoltre potrebbe influenzare la permeabilità di membrana.}
+\item \emph{inoltre potrebbe influenzare la permeabilità di membrana.}
+\end{itemize}
 
 Il campo magnetico che si crea per induzione di un campo elettrico ha
 degli effetti biologici importanti.
@@ -108,23 +43,22 @@ degli effetti biologici importanti.
 \textbf{Effetti secondari:} reazioni chimiche, fisiche, di risonanza,
 termici.
 
-\emph{Effetti magnetomeccanici }
+\subsection{Effetti magnetomeccanici }
 
 Sono effetti diretti legati all'interazione del campo magnetico con:
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\item
+\begin{itemize}
+\item[1.]
   dei materiali ferromagnetici presenti all'interno dell'organismo
   (magnetosomi di Fe3O4)
-\item
+\item[2.]
   dei centri paramagnetici naturalmente presenti (metalloproteine,
   citocromi, ossigeno molecolare) o formati con reazioni intermedie
   (coppie di radicali con spin elettronici disaccoppiati)
-\item
+\item[3.]
   molecole dotate di suscettibilità magnetica, cioè che sotto l'influsso
   del campo possono dare origine a reazioni enzimatiche attivandole.
-\end{enumerate}
+\end{itemize}
 
 Da questi tre tipi di interazione scaturiscono diversi effetti:
 
@@ -147,9 +81,7 @@ Da questi tre tipi di interazione scaturiscono diversi effetti:
   sono stati prodotti apparecchi particolari che dovrebbero avere
   effetto di normalizzazione del potenziale di membrana delle cellule
   che fanno parte di alcuni organi e apparati.
-\end{itemize}
 
-\begin{quote}
 Paradossalmente si potrebbe dire che, se si è esposti a campi magnetici,
 come è normale (telefonini ecc..), si dovrebbe essere, sotto un certo
 punto di vista, coperti perchè questo aiuterebbe diversi organi ad avere
@@ -157,9 +89,9 @@ la loro azione fisiologica ottimale. In realtà non è cosi, si crea
 disfunzione, in quanto l'interazione non è continua ma intermittente ed
 essendo intermittente crea condizioni per cui non si mantiene questo
 effetto.
-\end{quote}
+\end{itemize}
 
-\emph{Effetti magnetoelettrici}
+\subsection{Effetti magnetoelettrici}
 
 \begin{itemize}
 \item
@@ -175,7 +107,7 @@ effetto.
   sistema (tessuto, organo).
 \end{itemize}
 
-\emph{Apparecchiature}
+\subsection{Apparecchiature}
 
 \emph{L'apparecchio per la magnetoterapia è formato da:}
 
@@ -218,7 +150,7 @@ apparecchiature per magnetoterapia sono:}
   temperatura nei tessuti)}
 \end{itemize}
 
-\emph{Effetti terapeutici}
+\subsection{Effetti terapeutici}
 
 \emph{\emph{nei tessuti molli:}}
 
@@ -264,17 +196,21 @@ apparecchiature per magnetoterapia sono:}
 L'azione dei campi magnetici si esplica a tre livelli di organizzazione
 biologica:
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\item
+\begin{itemize}
+\item[1.]
   molecole protoplasmatiche (tessuto collagene)
-\item
+\item[2.]
   membrana cellulare
-\item
+\item[3.]
   tessuto nervoso e altri tessuti sensibili come sangue ed emopoietici.
-\end{enumerate}
+\end{itemize}
 
-\includegraphics[width=3.87083in,height=2.50000in]{media/image1.png}L'effetto
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.4\textwidth]{026/image1.png}
+\end{figure}
+
+L'effetto
 sul tessuto è legato all'effetto sulla cellula, la quale stimolata e
 parte di un tessuto su cui si riflettono poi le modificazioni.
 
@@ -299,7 +235,12 @@ come insonnia, facile irritabilità, reazioni eccessive di sudorazione,
 vomito. Di conseguenza questo tipo di trattamento e le apparecchiature
 per l'applicazione sono state progressivamente abbandonate nel tempo.
 
-\includegraphics[width=4.37500in,height=2.65278in]{media/image2.png}Gli
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.4\textwidth]{026/image1.png}
+\end{figure}
+
+Gli
 effetti più sfruttati in ambito terapeutico sono gli effetti meccanici,
 soprattutto a livello del tessuto osseo. L'effetto meccanico sul tessuto
 osseo è una stimolazione della deposizione di tessuto, quindi una
@@ -407,7 +348,7 @@ miglioramento sul circolo bisogna utilizzare basse intensità e frequenze
 poco più alte, o meglio ancora basse intensità e basse frequenze. (NB:
 L'alta frequenza serve per agire in profondità).
 
-\emph{Controindicazioni e precauzioni }
+\subsection{Controindicazioni e precauzioni }
 
 \begin{itemize}
 \item
@@ -424,11 +365,9 @@ L'alta frequenza serve per agire in profondità).
   peggiorando il versamento.
 \end{itemize}
 
-\begin{quote}
 Gli \textbf{effetti collaterali}, che regrediscono al cessare
 dell'applicazione, dipendono esclusivamente dal tempo di esposizione e
 possono essere:
-\end{quote}
 
 \begin{itemize}
 \item
@@ -460,7 +399,7 @@ applicazioni di 4 ore a frequenza definita di 50 Hz e intensità di 75 G.
 Questo per dire che sono stati fatti studi importanti ed esistono altri
 apparecchi per i ritardi di consolidazione.
 
-\emph{Usi in medicina }
+\subsection{Usi in medicina }
 
 Campi magnetici pulsati a bassa frequenza sono usati per i ritardi di
 consolidazione.
@@ -468,7 +407,7 @@ consolidazione.
 Campi magnetici ad alta frequenza non vengono utilizzati in maniera
 importante.
 
-Magneti naturali
+\section{Magneti naturali}
 
 Esistono in natura sostanze come il \textbf{Borio}, il
 \textbf{Berillio}, il \textbf{Neotinio} che hanno un grosso effetto
@@ -479,9 +418,19 @@ questi magneti naturali. Possono raggiungere potenze anche di più di
 1000G, con effetti straordinari su riparazione e tempi di riparazione
 delle fratture.
 
-\textbf{\emph{Frattura scafoide carpale composta}}
+\subsection{Frattura scafoide carpale composta}
 
-\includegraphics[width=4.12500in,height=3.00000in]{media/image3.jpeg}\includegraphics[width=4.12500in,height=3.25000in]{media/image4.jpeg}Questo
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.4\textwidth]{026/image3.jpeg}
+\end{figure}
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.4\textwidth]{026/image4.jpeg}
+\end{figure}
+
+Questo
 paziente ha fatto un trattamento di 20 gg di magnetoterapia continua,
 per velocizzare la formazione del callo osseo (35-40 gg normali). Il
 magnete si applica e si fissa sotto guida radiografica in una
@@ -531,7 +480,7 @@ potenze di 1-2 G, dando effetti blandi ma efficaci. Questo sistema è
 formato da un lettino formato da tante fasce unite tra loro (circa 12) e
 ogni fascia ha dei sistemi con i campi magnetici.
 
-\emph{Modalità di applicazione dei campi magnetici normali}
+\subsection{Modalità di applicazione dei campi magnetici normali}
 
 L'apparecchiatura è costituita da un lettino con due solenoidi e il
 campo magnetico è prodotto all'interno dei solenoidi. Se si posizione
@@ -592,8 +541,17 @@ sul circolo che rappresenta un modo per disseminare l'osteomielite.
 Nelle infezioni dare calore, vasodilatare o agire sul circolo è
 deleterio, sempre.
 
-\includegraphics[width=2.50000in,height=1.87500in]{media/image5.png}\includegraphics[width=3.62500in,height=1.98611in]{media/image6.jpeg}
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.4\textwidth]{026/image5.png}
+\end{figure}
 
-\includegraphics[width=3.12500in,height=2.16667in]{media/image7.jpeg}
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.4\textwidth]{026/image6.jpeg}
+\end{figure}
 
-\end{document}
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.4\textwidth]{026/image7.jpeg}
+\end{figure}
